@@ -2,6 +2,7 @@
 package spark
 
 // 필요한 Spark SQL 클래스 import
+
 import org.apache.spark.sql.SparkSession // SparkSession은 Spark 기능 사용의 진입점
 import org.apache.spark.sql.functions._ // 집계 함수(count, desc 등)를 사용하기 위한 import
 

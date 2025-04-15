@@ -2,6 +2,7 @@
 package spark
 
 // GeoIP2 라이브러리 import - MaxMind의 GeoLite2 DB 사용
+
 import com.maxmind.geoip2.DatabaseReader
 
 // SparkSession 및 필요한 클래스 import

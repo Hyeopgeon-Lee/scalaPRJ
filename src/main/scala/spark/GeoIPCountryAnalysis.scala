@@ -2,6 +2,7 @@
 package spark
 
 // 필요한 Spark SQL 관련 클래스 import
+
 import org.apache.spark.sql.{SparkSession, functions => F}
 
 // MaxMind GeoIP2 라이브러리 import (IP → 국가 정보 조회용)

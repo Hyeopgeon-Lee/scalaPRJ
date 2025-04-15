@@ -2,6 +2,7 @@
 package spark
 
 // SparkSession 사용을 위한 import
+
 import org.apache.spark.sql.SparkSession
 
 // 객체 정의 - 애플리케이션의 진입점

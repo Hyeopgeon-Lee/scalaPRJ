@@ -2,6 +2,7 @@
 package spark
 
 // SparkSession을 사용하기 위해 필요한 import 문
+
 import org.apache.spark.sql.SparkSession
 
 // HelloSpark 객체 정의 - Scala 애플리케이션의 시작점
