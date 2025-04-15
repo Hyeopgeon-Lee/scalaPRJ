@@ -1,3 +1,6 @@
+// 패키지 선언 - 이 파일은 spark 패키지에 포함됨
+package spark
+
 // SparkSession을 사용하기 위해 필요한 import 문
 import org.apache.spark.sql.SparkSession
 
