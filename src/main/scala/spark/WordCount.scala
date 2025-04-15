@@ -26,7 +26,7 @@ object WordCount {
     // 3. SparkContext 획득 - RDD API를 사용하기 위해 필요
     val sc = spark.sparkContext
 
-    // ❗ JVM 관련 주의 사항
+    // JVM 관련 주의 사항
     // Java 17 이상에서는 RDD 처리 시 내부적으로 sun.nio.ch.DirectBuffer 등
     // JDK 내부 모듈을 접근하는 경우가 있어 JVM 실행 옵션이 필요함
     // 아래 옵션을 추가하지 않으면 IllegalAccessError 발생 가능

@@ -24,7 +24,7 @@ object ReadFileBasic {
     // RDD 기반 API를 사용하기 위해 SparkSession에서 SparkContext를 얻음
     val sc = spark.sparkContext
 
-    // ❗ Java 17 이상에서 RDD 사용 시 JVM 옵션 필요
+    // Java 17 이상에서 RDD 사용 시 JVM 옵션 필요
     // JVM 실행 시 아래 옵션을 추가해야 Kryo 직렬화 오류 방지 가능
     // --add-opens java.base/sun.nio.ch=ALL-UNNAMED
     // --add-opens java.base/java.nio=ALL-UNNAMED
