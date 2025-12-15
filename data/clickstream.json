@@ -1,0 +1,1202 @@
+[
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:49:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:37:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:41:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:46:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:07:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:47:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:58:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 10:13:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:35:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 11:53:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:19:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:00:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:44:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:11:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 10:54:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:52:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 14:10:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:24:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:09:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:48:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:24:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 13:18:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:56:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:29:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:53:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:14:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 10:45:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:51:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 10:01:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:38:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 10:24:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 13:45:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:16:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 10:05:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:36:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 14:59:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:05:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:53:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:16:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:00:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:32:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:07:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:45:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:40:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:03:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:03:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:38:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:09:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:39:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 13:37:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:39:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:25:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:24:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:19:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 13:18:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:55:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:27:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 10:46:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:14:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:44:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:56:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:28:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:15:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:07:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:15:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:55:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 14:35:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 13:53:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 10:23:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 10:59:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:04:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:18:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:05:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:34:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:48:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:48:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:01:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:35:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:45:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:23:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:28:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:00:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:20:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:40:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:51:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:35:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:30:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:18:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:02:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:17:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:04:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 13:19:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:41:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:23:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 11:23:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:56:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 14:18:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 14:20:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 10:52:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:07:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:10:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 14:48:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:46:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:59:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:13:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 10:45:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:06:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:47:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 13:53:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:36:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:33:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:25:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:04:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:10:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:46:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:55:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:29:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:48:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:19:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:37:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 10:44:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 10:41:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:16:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 10:06:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 14:05:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:29:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:25:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:13:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:56:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:54:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 11:20:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:42:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:26:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:51:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 14:27:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:47:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 10:02:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:20:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:12:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:05:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:02:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:09:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:47:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:59:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:53:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 11:38:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:46:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 10:27:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:40:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:31:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 10:51:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:46:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:38:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:28:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:59:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 13:59:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 11:27:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:51:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 10:40:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 13:31:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 14:35:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 11:18:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:05:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:25:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 13:21:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:11:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:44:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:07:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:23:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:53:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:30:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:18:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:10:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:37:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:09:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:03:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:44:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 12:54:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 14:15:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:29:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 14:02:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:21:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:04:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 11:27:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:37:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:34:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:11:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 11:51:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 12:26:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 13:07:00",
+    "page": "checkout",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 13:04:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 12:12:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u1",
+    "event_time": "2025-01-02 12:40:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u5",
+    "event_time": "2025-01-02 14:58:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:39:00",
+    "page": "home",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u2",
+    "event_time": "2025-01-02 11:11:00",
+    "page": "detail",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 12:09:00",
+    "page": "cart",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u3",
+    "event_time": "2025-01-02 10:07:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 11:13:00",
+    "page": "products",
+    "event_type": "click"
+  },
+  {
+    "user_id": "u4",
+    "event_time": "2025-01-02 10:15:00",
+    "page": "checkout",
+    "event_type": "click"
+  }
+]
