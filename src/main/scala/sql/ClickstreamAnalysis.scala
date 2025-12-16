@@ -4,6 +4,7 @@ package sql
 // - SparkSession : Spark SQL 애플리케이션의 시작점
 // - functions => F : Spark SQL 내장 함수 모음
 // - Window : 사용자 행동 분석을 위한 Window Function
+
 import org.apache.spark.sql.{SparkSession, functions => F}
 import org.apache.spark.sql.expressions.Window
 import org.apache.spark.sql.types._
@@ -14,9 +15,9 @@ import org.apache.spark.sql.types._
  * 사용자 행동 로그(Clickstream)를 Spark SQL로 분석하는 예제
  *
  * 분석 내용
- *  1) 페이지 전환 분석 (이전 페이지 → 현재 페이지)
- *  2) 세션(Session) 단위 사용자 행동 요약
- *  3) 페이지별 방문 수(Page View)
+ * 1) 페이지 전환 분석 (이전 페이지 → 현재 페이지)
+ * 2) 세션(Session) 단위 사용자 행동 요약
+ * 3) 페이지별 방문 수(Page View)
  *
  * 핵심 학습 포인트
  *  - Window Function(lag)
@@ -39,28 +40,22 @@ object ClickstreamAnalysis {
     // DataFrame DSL($"컬럼명") 사용을 위한 설정
     import spark.implicits._
 
-    // 2. 입력 파일 경로
-    // 실행 시 인자가 있으면 해당 경로 사용, 없으면 기본 HDFS 경로 사용
-    val inputPath =
-      if (args.nonEmpty) args(0)
-      else "hdfs://192.168.133.131:8020/spark_data/clickstream.json"
-
-    // 3. Clickstream 데이터 스키마 정의
+    // 2. Clickstream 데이터 스키마 정의
     // 하나의 Row = 하나의 사용자 행동 이벤트
     val schema = StructType(Seq(
-      StructField("user_id", StringType, true),    // 사용자 식별자
+      StructField("user_id", StringType, true), // 사용자 식별자
       StructField("event_time", StringType, true), // 이벤트 발생 시각 (문자열)
-      StructField("page", StringType, true),       // 접근/클릭한 페이지
-      StructField("event_type", StringType, true)  // 행동 유형 (click 등)
+      StructField("page", StringType, true), // 접근/클릭한 페이지
+      StructField("event_type", StringType, true) // 행동 유형 (click 등)
     ))
 
-    // 4. JSON 로그 파일 로드
+    // 3. JSON 로그 파일 로드
     val raw = spark.read
       .schema(schema)
       .option("multiline", "true") // JSON 배열 형태일 경우 필요
-      .json(inputPath)
+      .json("hdfs://192.168.133.131:8020/spark_data/clickstream.json")
 
-    // 5. 분석을 위한 전처리
+    // 4. 분석을 위한 전처리
     val df = raw
       // event_time 문자열을 Timestamp 타입으로 변환
       // 다양한 시간 포맷을 대비해 coalesce 사용
@@ -80,7 +75,9 @@ object ClickstreamAnalysis {
       // - 페이지 정보 없는 로그 제거
       .filter($"user_id".isNotNull && $"ts".isNotNull && $"page".isNotNull)
 
-    // 6. 사용자 행동 분석을 위한 Window 정의
+    df.show()
+
+    // 5. 사용자 행동 분석을 위한 Window 정의
     // - user_id 기준으로 묶고
     // - 시간(ts) 기준으로 정렬
     val w = Window.partitionBy("user_id").orderBy("ts")
@@ -104,6 +101,7 @@ object ClickstreamAnalysis {
       // 전환 횟수 기준 내림차순 정렬
       .orderBy(F.desc("cnt"))
 
+    transitions.show()
     // =========================================================
     // (B) 세션화(Sessionization)
     // =========================================================
@@ -133,6 +131,8 @@ object ClickstreamAnalysis {
     val withSessionId = withDiff
       .withColumn("session_id", F.sum($"is_new_session").over(w))
 
+    withSessionId.show()
+
     // Spark SQL 분석을 위해 임시 뷰 등록
     withSessionId.createOrReplaceTempView("clicks")
 
@@ -140,7 +140,8 @@ object ClickstreamAnalysis {
     // (C) 세션 단위 요약 분석
     // =========================================================
 
-    val sessionAgg = spark.sql("""
+    val sessionAgg = spark.sql(
+      """
       SELECT user_id,
              session_id,
              MIN(ts) AS session_start,
@@ -155,7 +156,8 @@ object ClickstreamAnalysis {
     // (D) 페이지별 방문 수(Page View)
     // =========================================================
 
-    val pageViews = spark.sql("""
+    val pageViews = spark.sql(
+      """
       SELECT page, COUNT(*) AS pv
       FROM clicks
       GROUP BY page
