@@ -24,7 +24,7 @@ object IPCount {
 
     // HDFS에 저장된 apache_log.json 파일을 읽어 DataFrame으로 로드
     // - JSON 형식이므로 자동으로 스키마 추론 및 파싱됨
-    val df = spark.read.json("hdfs://192.168.133.131:8020/spark/apache_log.json")
+    val df = spark.read.json("hdfs://192.168.133.131:8020/spark_data/apache_log.json")
 
     // [예상되는 컬럼 예시] ip, timestamp, method, uri, status, userAgent 등
     // - ip 컬럼을 기준으로 그룹화(groupBy)

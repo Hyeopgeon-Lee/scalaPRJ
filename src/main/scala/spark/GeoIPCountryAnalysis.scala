@@ -55,7 +55,7 @@ object GeoIPCountryAnalysis {
     //    - multiline: JSON 배열 형태라면 true 설정 필요
     val df = spark.read
       .option("multiline", value = true)
-      .json("hdfs://192.168.133.131:8020/spark/apache_log.json")
+      .json("hdfs://192.168.133.131:8020/spark_data/apache_log_bot_detection.json")
 
     // 6. 국가 컬럼 추가 및 국가별 요청 수 집계
     //    - withColumn("country", ...): IP → 국가 변환

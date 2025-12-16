@@ -14,44 +14,34 @@ object WebLogAnalysis {
     spark.sparkContext.setLogLevel("ERROR")
     import spark.implicits._
 
-    // 1) 입력 경로 (필요 시 수정)
-    // 예: HDFS: hdfs://192.168.133.131:8020/data/weblog.json
-    // 예: Local: file:///C:/data/weblog.json
-    val inputPath = if (args.nonEmpty) args(0) else "hdfs://192.168.133.131:8020/spark/weblog.json"
-
-    // 2) 웹 로그 스키마(예시)
-    // ts: ISO8601 또는 "yyyy-MM-dd HH:mm:ss" 형태
+    // ✔ 실제 JSON 구조에 맞춘 스키마
     val schema = StructType(Seq(
-      StructField("ts", StringType, nullable = true),
-      StructField("ip", StringType, nullable = true),
-      StructField("method", StringType, nullable = true),
-      StructField("url", StringType, nullable = true),
-      StructField("status", IntegerType, nullable = true),
-      StructField("bytes", LongType, nullable = true),
-      StructField("userAgent", StringType, nullable = true),
-      StructField("referrer", StringType, nullable = true)
+      StructField("ip", StringType, true),
+      StructField("timestamp", StringType, true),
+      StructField("method", StringType, true),
+      StructField("path", StringType, true),
+      StructField("status", IntegerType, true),
+      StructField("bytes", LongType, true),
+      StructField("userAgent", StringType, true),
+      StructField("referrer", StringType, true)
     ))
 
-    // 3) JSON 로드 → 표준 컬럼 정규화
-    val raw = spark.read
+    // ✔ 로컬 파일 경로
+    val df = spark.read
       .schema(schema)
       .option("multiline", "true")
-      .json(inputPath)
+      .json("hdfs://192.168.133.131:8020/spark_data/apache_log_bot_detection.json")
 
-    val df = raw
-      .withColumn("event_time",
-        F.coalesce(
-          F.to_timestamp($"ts"),
-          F.to_timestamp($"ts", "yyyy-MM-dd HH:mm:ss")
-        )
-      )
-      .drop("ts")
+    // ✔ 컬럼 표준화
+    val weblog = df
+      .withColumn("event_time", F.to_timestamp($"timestamp"))
+      .withColumnRenamed("path", "url")
+      .drop("timestamp")
       .filter($"event_time".isNotNull && $"url".isNotNull)
 
-    // 4) Temp View 등록
-    df.createOrReplaceTempView("weblog")
+    weblog.createOrReplaceTempView("weblog")
 
-    // 5) 상태코드 분포
+    // 1️⃣ 상태코드 분포
     val statusAgg = spark.sql(
       """
       SELECT status, COUNT(*) AS cnt
@@ -60,7 +50,7 @@ object WebLogAnalysis {
       ORDER BY cnt DESC
     """)
 
-    // 6) 시간대별 트래픽(시간 단위)
+    // 2️⃣ 시간대별 트래픽
     val hourlyAgg = spark.sql(
       """
       SELECT date_format(event_time, 'yyyy-MM-dd HH:00') AS hour_bucket,
@@ -70,7 +60,7 @@ object WebLogAnalysis {
       ORDER BY hour_bucket
     """)
 
-    // 7) Top URL
+    // 3️⃣ Top URL
     val topUrl = spark.sql(
       """
       SELECT url, COUNT(*) AS cnt
@@ -80,15 +70,14 @@ object WebLogAnalysis {
       LIMIT 20
     """)
 
-    // 8) 출력
     println("=== [1] Status Code Distribution ===")
-    statusAgg.show(50, truncate = false)
+    statusAgg.show(truncate = false)
 
     println("=== [2] Hourly Traffic ===")
-    hourlyAgg.show(48, truncate = false)
+    hourlyAgg.show(truncate = false)
 
-    println("=== [3] Top 20 URL ===")
-    topUrl.show(20, truncate = false)
+    println("=== [3] Top URL ===")
+    topUrl.show(truncate = false)
 
     spark.stop()
   }

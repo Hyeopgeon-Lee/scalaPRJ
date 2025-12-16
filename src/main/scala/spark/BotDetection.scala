@@ -31,7 +31,7 @@ object BotDetection {
     // 예: [{...}, {...}, {...}]
     val df = spark.read
       .option("multiline", value = true)
-      .json("hdfs://192.168.133.131:8020/apache_log.json")
+      .json("hdfs://192.168.133.131:8020/spark_data/apache_log_bot_detection.json")
 
     // 3. timestamp 필드를 Spark의 Timestamp 형식으로 변환 및 시간 버킷 생성
     val parsedDF = df
@@ -44,11 +44,15 @@ object BotDetection {
         date_format($"parsed_time", "yyyy-MM-dd HH:mm")
       ) // 분 단위로 버킷팅 (yyyy-MM-dd HH:mm)
 
+    parsedDF.show()
+
     // 4. IP + 분단위 조합으로 요청 수 계산 후 1분 내 10건 이상 요청한 IP 탐지
     val ipPerMinute = parsedDF
       .groupBy($"ip", $"minute_bucket")
       .agg(count("*").alias("request_count"))
       .filter($"request_count" >= 10) // 봇 의심 기준
+
+    ipPerMinute.show()
 
     // 5. 결과 출력
     println("봇 의심 IP 탐지 결과 (1분 내 10건 이상 요청):")

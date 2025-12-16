@@ -16,7 +16,7 @@ object WordCount {
     // .appName(): 애플리케이션 이름 지정 (Spark UI 등에서 확인 가능)
     // .master("local[*]"): 로컬 머신의 모든 코어를 사용하여 실행
     val spark = SparkSession.builder()
-      .appName("Word Count from Comedies File")
+      .appName("Word Count from Novel File")
       .master("local[*]")
       .getOrCreate()
 
@@ -38,7 +38,7 @@ object WordCount {
 
     // 4. 텍스트 파일 로드 (HDFS 경로에서 파일을 읽음)
     // textFile(): 한 줄씩 읽어 RDD[String] 형태로 반환
-    val rdd = sc.textFile("hdfs://192.168.133.131:8020/comedies")
+    val rdd = sc.textFile("hdfs://192.168.133.131:8020/spark_data/novel.txt")
 
     // 5. 단어 분리 및 카운트 처리
     // flatMap: 각 줄을 단어로 나눠 평탄화

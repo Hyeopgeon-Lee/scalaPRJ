@@ -1,0 +1,500 @@
+Mike likes school at home.
+John plays a cat at home.
+John plays milk every day.
+Anna plays a cat at home.
+Mike plays apples with friends.
+Tom has games after school.
+Tom likes a dog with friends.
+Mike sees a cat every day.
+Mike reads a cat after school.
+Anna reads books at home.
+Anna has school in the park.
+John likes games in the park.
+Anna reads books after school.
+Anna sees milk after school.
+Mike reads school at home.
+Mary has milk in the park.
+Mike sees books in the park.
+Mike reads milk after school.
+John likes a dog with friends.
+Tom sees books at home.
+Anna likes games after school.
+Anna plays apples after school.
+John reads school with friends.
+Mike has a cat every day.
+Mary has games at home.
+Mike likes a dog in the park.
+Mike has milk at home.
+John likes books every day.
+Anna sees milk every day.
+Mike sees milk at home.
+John plays a dog with friends.
+Mike sees a dog every day.
+Mary sees books with friends.
+Mike likes books after school.
+Anna sees books with friends.
+Tom likes books after school.
+John plays milk .
+John has a dog at home.
+Mike likes a cat every day.
+Mary reads games .
+Mary sees a dog after school.
+Mike plays games at home.
+Tom likes school every day.
+Mary sees a cat .
+Tom plays apples after school.
+Mike plays milk every day.
+Tom reads a cat after school.
+Mike likes games .
+Tom reads a cat with friends.
+Anna reads games every day.
+Tom reads school .
+Tom plays milk after school.
+Tom plays apples in the park.
+Mike likes a cat .
+Mike likes school after school.
+Tom plays school .
+John has games in the park.
+Anna likes a dog .
+Tom plays milk every day.
+Anna likes school with friends.
+Anna reads a cat .
+Tom reads games in the park.
+Anna has books with friends.
+Tom sees games every day.
+Tom plays a dog at home.
+Mike likes school every day.
+Tom has milk every day.
+Anna sees books every day.
+Anna reads books after school.
+Mike reads milk every day.
+Mary plays a dog after school.
+Mary sees books at home.
+Anna likes apples after school.
+Anna plays a dog after school.
+Mike has apples every day.
+John sees books after school.
+Anna plays milk at home.
+Anna reads a dog every day.
+John sees a dog after school.
+Mike sees a cat with friends.
+Mary likes apples at home.
+Mike plays apples every day.
+Tom has a dog at home.
+Mary reads a dog .
+Anna has milk with friends.
+Tom plays a dog in the park.
+Mike has apples in the park.
+John has a dog with friends.
+Anna sees a cat with friends.
+Tom sees school every day.
+Mary reads books with friends.
+Mike sees milk in the park.
+Mike has a cat with friends.
+John reads school in the park.
+John plays a cat after school.
+John has a dog .
+Anna sees a dog in the park.
+Mike sees milk .
+John has school in the park.
+Tom sees milk after school.
+Anna reads milk every day.
+John sees a dog in the park.
+Mary has a cat every day.
+Mary reads school with friends.
+Anna has books at home.
+Mike likes milk every day.
+Mary reads apples every day.
+John reads school at home.
+Anna has milk after school.
+Mike sees milk at home.
+John likes apples .
+Tom reads school in the park.
+Anna reads milk .
+Mary likes books every day.
+Mike reads school in the park.
+Mike plays a dog .
+Tom plays books in the park.
+John has a dog .
+Mike plays games after school.
+Tom likes a dog .
+Tom plays milk .
+Mary reads a dog at home.
+Anna has milk in the park.
+Tom has games at home.
+Mary plays a cat every day.
+Tom plays milk with friends.
+Tom sees apples .
+Mary sees books in the park.
+John has school with friends.
+John sees books .
+Mary likes school with friends.
+Tom plays books every day.
+John reads a dog in the park.
+Mary likes a cat with friends.
+Anna reads school in the park.
+John has school with friends.
+Mary sees a cat at home.
+Anna likes apples every day.
+Tom sees a dog in the park.
+Mike has a cat at home.
+Tom has school every day.
+Mike has games at home.
+Mary plays books every day.
+Tom likes school .
+Tom plays apples at home.
+John has games at home.
+Mary has a dog with friends.
+John has a dog with friends.
+John has milk at home.
+Tom sees school at home.
+John likes a cat at home.
+Mike sees a dog in the park.
+Mike plays books after school.
+Tom sees games after school.
+Mike likes milk in the park.
+Tom sees books every day.
+Anna likes a dog .
+Mary reads a cat with friends.
+Tom plays a dog with friends.
+Mike reads milk every day.
+Anna reads books every day.
+Tom sees milk at home.
+Anna plays school with friends.
+Tom plays apples in the park.
+Tom has a cat at home.
+Mike plays books after school.
+Tom sees a dog in the park.
+Anna sees games every day.
+Mike sees a dog every day.
+Tom plays milk .
+Tom reads games every day.
+Mike likes books every day.
+Tom has milk .
+Anna sees school after school.
+Mary plays milk every day.
+Mary sees games with friends.
+Anna has milk with friends.
+Anna plays apples .
+John likes milk at home.
+Tom has a cat at home.
+Mike likes school in the park.
+Mike reads a dog .
+Tom reads a dog every day.
+Tom sees school every day.
+Mary reads a cat .
+John sees a dog every day.
+Mary reads school in the park.
+Mary has apples after school.
+Anna has school with friends.
+John plays books after school.
+John reads school .
+Mary plays apples .
+Mary plays school with friends.
+Tom plays games every day.
+Anna sees school every day.
+Mike reads milk after school.
+John plays books .
+Mike plays milk every day.
+Mary likes milk in the park.
+Mike plays milk in the park.
+Mike likes a dog in the park.
+Mike plays a dog at home.
+Mary plays apples every day.
+Anna reads school .
+Mike reads games .
+Tom plays games every day.
+John likes games at home.
+John sees school after school.
+John has apples after school.
+Mary sees books with friends.
+Mary reads games after school.
+Mike likes a cat in the park.
+Anna reads a dog every day.
+Anna likes apples in the park.
+Mike likes milk in the park.
+Mike plays school every day.
+Mary likes games every day.
+John plays school .
+John likes a cat every day.
+Tom has games at home.
+John plays school at home.
+Anna reads a cat after school.
+John sees a dog with friends.
+Mary reads a dog at home.
+Mary likes milk in the park.
+Tom plays games with friends.
+Tom has a cat after school.
+John plays a cat .
+Tom plays a dog every day.
+Anna likes a cat .
+Anna likes books .
+Mary sees a dog every day.
+Anna has books every day.
+Tom plays books in the park.
+Mary sees milk at home.
+Mary likes school at home.
+Mike plays a dog with friends.
+Mary has apples every day.
+Tom sees apples every day.
+Mary likes games in the park.
+Mary likes apples in the park.
+Tom sees books .
+Tom plays school every day.
+Mary sees school with friends.
+Anna has books every day.
+John sees books in the park.
+Mary reads apples .
+Tom sees a cat in the park.
+Mary has school after school.
+Mike sees milk with friends.
+Mary plays apples in the park.
+Anna plays games with friends.
+Anna reads games .
+Mary reads milk at home.
+John sees a dog .
+John reads milk .
+Mary plays a dog every day.
+Mike sees a dog at home.
+Tom likes school every day.
+John reads apples .
+Mary reads books with friends.
+Tom sees books in the park.
+Anna sees apples .
+Anna reads a cat every day.
+Mike sees apples with friends.
+Mary sees games with friends.
+Anna likes milk after school.
+Anna has a cat after school.
+Mike has games with friends.
+Anna reads apples with friends.
+Tom has books .
+Mary likes apples after school.
+Mike sees books .
+John reads a cat in the park.
+Mike plays a cat with friends.
+Mary has milk after school.
+Tom plays a cat after school.
+Tom plays apples in the park.
+Anna reads a cat .
+Mike likes books .
+Mary has games .
+John likes books in the park.
+Mike likes milk .
+John likes apples with friends.
+Mary reads games every day.
+John reads school every day.
+Mike likes a dog .
+Mike likes books in the park.
+Mary reads books with friends.
+Tom plays books with friends.
+Mike reads school .
+Mary plays a cat every day.
+John reads school every day.
+Anna sees games at home.
+Mike reads milk in the park.
+Mike sees games after school.
+Mary likes books with friends.
+Anna likes a cat after school.
+Anna sees a dog in the park.
+Mike has apples .
+Anna sees games after school.
+Anna sees books after school.
+Mike plays games at home.
+Tom has milk with friends.
+Mary plays milk with friends.
+Mary sees a dog with friends.
+John sees a cat every day.
+Anna has books with friends.
+Anna sees school at home.
+Anna reads a dog every day.
+Anna plays school in the park.
+Mike sees games in the park.
+Mary likes books with friends.
+Mike reads apples with friends.
+Mike plays books with friends.
+Tom reads milk every day.
+John likes milk with friends.
+John likes books in the park.
+Anna likes apples in the park.
+Anna reads games every day.
+Mary sees a cat after school.
+John has apples .
+John reads a dog .
+Mary sees books after school.
+Anna has a cat with friends.
+John plays school after school.
+Anna plays books .
+Mary plays school .
+John reads school in the park.
+Mike sees a dog at home.
+Mary sees a dog with friends.
+Tom likes games every day.
+John plays books with friends.
+Mary sees apples in the park.
+John has a dog after school.
+Mary reads apples in the park.
+Anna has a cat in the park.
+Mike has a dog .
+Mary sees games in the park.
+Mike plays games with friends.
+Mary likes school at home.
+John has milk after school.
+Mary has a dog every day.
+John reads milk every day.
+Mary has school every day.
+Anna sees a dog in the park.
+Anna reads games in the park.
+Mary likes apples in the park.
+Anna sees a cat at home.
+Mary sees a cat every day.
+Anna plays milk with friends.
+Mike has books at home.
+Tom has milk .
+John has milk after school.
+Anna reads milk .
+Anna plays apples .
+John has school with friends.
+Mike likes a dog in the park.
+Mary likes books every day.
+Anna sees a dog at home.
+Anna likes a cat at home.
+John plays books at home.
+Anna has games .
+John sees books at home.
+Tom plays a dog .
+Mary has milk with friends.
+John plays apples in the park.
+Mary likes apples .
+Mary has books with friends.
+Mike reads apples after school.
+Mike has a cat at home.
+Mary reads a dog every day.
+Anna sees apples in the park.
+Anna likes milk every day.
+Tom has milk at home.
+Mary likes a cat every day.
+Mary sees a dog in the park.
+Mike plays school in the park.
+Tom reads school at home.
+Tom likes milk with friends.
+Anna reads school after school.
+Mary reads books .
+Mary likes school with friends.
+Mike likes a cat at home.
+John likes apples every day.
+John plays school in the park.
+Mike plays milk with friends.
+John reads school every day.
+Anna likes apples .
+Anna likes school .
+Tom has apples every day.
+Anna sees games at home.
+Mike sees a cat .
+John sees a cat every day.
+Mary has a dog in the park.
+John has a dog after school.
+Tom plays a dog with friends.
+Anna sees a cat at home.
+Tom has a cat .
+Anna plays apples at home.
+John has a dog every day.
+Mary has milk .
+John sees books .
+John plays school after school.
+Anna has school at home.
+Anna has books .
+John reads school every day.
+Anna plays a dog in the park.
+Anna sees games in the park.
+Tom has school in the park.
+Mike plays apples at home.
+Mary sees milk in the park.
+Mike has milk after school.
+Mike reads a cat .
+Mary reads games after school.
+Mary plays a cat with friends.
+Tom sees a dog in the park.
+Mike likes apples with friends.
+Tom has school at home.
+Anna plays games after school.
+John has school with friends.
+John sees milk at home.
+John plays apples every day.
+Anna has a cat with friends.
+Mike has school after school.
+Mike has a cat in the park.
+Mary likes books with friends.
+Mike reads a dog every day.
+Mike has books after school.
+Mike reads games at home.
+Mary sees apples .
+Mary plays school every day.
+John sees milk after school.
+Mike likes milk every day.
+Mike sees games at home.
+Anna likes milk .
+Mike sees a dog after school.
+Tom likes books .
+Mary likes books with friends.
+Mary has books after school.
+John reads books at home.
+Tom plays a dog .
+Mary plays apples in the park.
+Tom has school in the park.
+Mary likes milk .
+John has a cat at home.
+Anna has apples after school.
+Tom reads a dog at home.
+Mike sees apples .
+Mike reads apples at home.
+Tom has a cat after school.
+Anna reads milk .
+Anna has a dog every day.
+John sees milk at home.
+Tom reads games with friends.
+Tom plays games with friends.
+Anna likes milk every day.
+John plays a cat .
+John sees a dog after school.
+Mike reads a cat at home.
+Mike plays books after school.
+Mike plays milk at home.
+Mike plays games after school.
+John reads school every day.
+Mary has a dog .
+Mary plays a cat in the park.
+Anna plays games in the park.
+Mike plays apples at home.
+Anna plays apples in the park.
+John reads school every day.
+Tom likes games .
+Tom has a dog in the park.
+John likes games every day.
+Tom plays books every day.
+Anna sees a cat at home.
+John likes apples .
+Tom likes books every day.
+Tom plays games .
+Mike plays milk .
+Mary has a cat after school.
+Tom sees a cat every day.
+Tom plays milk in the park.
+John likes milk in the park.
+Mike reads a cat at home.
+Tom reads a dog every day.
+Anna reads a cat at home.
+Mary has a dog at home.
+Mary has books in the park.
+John likes apples .
+Mike sees school every day.
+Anna sees a dog in the park.
+Anna sees a cat at home.
+Tom reads apples with friends.
+Tom likes apples every day.
+John reads books .
+Mike likes a cat in the park.
+Anna likes school with friends.
+Tom has books at home.
+Mary likes a cat .
+Mike reads school in the park.

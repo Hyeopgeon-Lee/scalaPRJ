@@ -32,7 +32,7 @@ object GeoIPCountryAnalysis_MapPartitions {
     //    - select($"ip") : 필요한 컬럼(IP 주소)만 선택하여 메모리 사용 최소화
     val df = spark.read
       .option("multiline", value = true)
-      .json("hdfs://192.168.133.131:8020/spark/apache_log.json")
+      .json("hdfs://192.168.133.131:8020/spark_data/apache_log_bot_detection.json")
       .select($"ip")
 
     // 4. DataFrame을 RDD로 변환 후 mapPartitions을 통해 변환 수행

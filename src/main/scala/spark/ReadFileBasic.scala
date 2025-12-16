@@ -16,7 +16,7 @@ object ReadFileBasic {
     // .appName() : Spark UI나 로그에서 보일 애플리케이션 이름 지정
     // .master("local[*]") : 로컬 환경에서 모든 CPU 코어 사용 (YARN 환경이면 "yarn"으로 지정 가능)
     val spark = SparkSession.builder()
-      .appName("Read Comedies File") // 애플리케이션 이름 설정
+      .appName("Read Novel File") // 애플리케이션 이름 설정
       .master("local[*]") // 로컬에서 실행 시 사용 (클러스터 환경은 "yarn")
       .getOrCreate() // 기존 SparkSession이 있으면 재사용, 없으면 새로 생성
 
@@ -34,10 +34,10 @@ object ReadFileBasic {
     // HDFS에 저장된 텍스트 파일 읽기
     // textFile(): 각 줄을 RDD의 한 요소로 읽어들임
     // "hdfs://IP:포트/파일경로" 형식으로 지정
-    val rdd = sc.textFile("hdfs://192.168.133.131:8020/comedies")
+    val rdd = sc.textFile("hdfs://192.168.133.131:8020/spark_data/novel.txt")
 
     // 읽어온 데이터 출력
-    println("[comedies 파일 내용 출력]")
+    println("[소셜 파일 내용 출력]")
     rdd.foreach(println) // 각 줄을 출력
 
     // SparkSession 종료

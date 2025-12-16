@@ -23,7 +23,7 @@ object IPCountTxt {
     // 3. SparkContext를 통해 텍스트 파일(RDD 형태) 읽기
     // RDD는 각 줄(로그 한 줄)이 하나의 요소로 구성됨
     val sc = spark.sparkContext
-    val rdd = sc.textFile("hdfs://192.168.133.131:8020/spark/apache_log.txt")
+    val rdd = sc.textFile("hdfs://192.168.133.131:8020/spark_data/apache_log.txt")
 
     // 4. 각 로그 줄에서 IP만 추출
     // 로그의 첫 번째 단어는 IP이므로 split(" ")(0)으로 가져옴
