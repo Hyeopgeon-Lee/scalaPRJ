@@ -39,14 +39,14 @@ object WebLogAnalysis {
     // 로그 분석에서는 컬럼 구조를 명확히 아는 것이 가장 중요
     // timestamp 예시: 11/Apr/2025:15:03:18 +0900
     val schema = StructType(Seq(
-      StructField("ip", StringType, true),          // 요청한 클라이언트 IP
-      StructField("timestamp", StringType, true),   // 요청 시각 (문자열)
-      StructField("method", StringType, true),      // HTTP Method
-      StructField("path", StringType, true),        // 요청 URL 경로
-      StructField("status", IntegerType, true),     // HTTP 상태 코드
-      StructField("bytes", LongType, true),         // 응답 크기(Byte)
-      StructField("userAgent", StringType, true),   // User-Agent 정보
-      StructField("referrer", StringType, true)     // 이전 페이지 정보
+      StructField("ip", StringType, nullable = true),          // 요청한 클라이언트 IP
+      StructField("timestamp", StringType, nullable = true),   // 요청 시각 (문자열)
+      StructField("method", StringType, nullable = true),      // HTTP Method
+      StructField("path", StringType, nullable = true),        // 요청 URL 경로
+      StructField("status", IntegerType, nullable = true),     // HTTP 상태 코드
+      StructField("bytes", LongType, nullable = true),         // 응답 크기(Byte)
+      StructField("userAgent", StringType, nullable = true),   // User-Agent 정보
+      StructField("referrer", StringType, nullable = true)     // 이전 페이지 정보
     ))
 
     schema.printTreeString()

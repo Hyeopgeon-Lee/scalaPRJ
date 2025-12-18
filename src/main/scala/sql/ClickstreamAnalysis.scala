@@ -43,10 +43,10 @@ object ClickstreamAnalysis {
     // 2. Clickstream 데이터 스키마 정의
     // 하나의 Row = 하나의 사용자 행동 이벤트
     val schema = StructType(Seq(
-      StructField("user_id", StringType, true), // 사용자 식별자
-      StructField("event_time", StringType, true), // 이벤트 발생 시각 (문자열)
-      StructField("page", StringType, true), // 접근/클릭한 페이지
-      StructField("event_type", StringType, true) // 행동 유형 (click 등)
+      StructField("user_id", StringType, nullable = true), // 사용자 식별자
+      StructField("event_time", StringType, nullable = true), // 이벤트 발생 시각 (문자열)
+      StructField("page", StringType, nullable = true), // 접근/클릭한 페이지
+      StructField("event_type", StringType, nullable = true) // 행동 유형 (click 등)
     ))
 
     // 3. JSON 로그 파일 로드

@@ -1,7 +1,7 @@
 package ml
 
 import org.apache.spark.sql.{SparkSession, functions => F}
-import org.apache.spark.ml.{Pipeline}
+import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.feature.{VectorAssembler, StandardScaler}
 import org.apache.spark.ml.classification.LogisticRegression
 import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
@@ -85,7 +85,7 @@ object PurchasePrediction {
       .setFeaturesCol("features")
       .setLabelCol("label")
       .setMaxIter(50)
-      .setRegParam(0.0)      // 실습용: 규제 약하게(또는 0)
+      .setRegParam(0.0) // 실습용: 규제 약하게(또는 0)
       .setElasticNetParam(0) // 0=L2, 1=L1
 
     val pipeline = new Pipeline().setStages(Array(assembler, scaler, lr))

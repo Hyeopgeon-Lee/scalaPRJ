@@ -18,13 +18,13 @@ object SalesAnalysis {
     val inputPath = if (args.nonEmpty) args(0) else "hdfs://192.168.133.131:8020/spark/orders.csv"
 
     val schema = StructType(Seq(
-      StructField("order_id", StringType, true),
-      StructField("user_id", StringType, true),
-      StructField("order_time", StringType, true),
-      StructField("category", StringType, true),
-      StructField("product", StringType, true),
-      StructField("price", DoubleType, true),
-      StructField("qty", IntegerType, true)
+      StructField("order_id", StringType, nullable = true),
+      StructField("user_id", StringType, nullable = true),
+      StructField("order_time", StringType, nullable = true),
+      StructField("category", StringType, nullable = true),
+      StructField("product", StringType, nullable = true),
+      StructField("price", DoubleType, nullable = true),
+      StructField("qty", IntegerType, nullable = true)
     ))
 
     val raw = spark.read
